@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>MicroBlog</title>
+    <base href="/" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  </head>
+  <body>
+    <main>
+      <header><h1>MicroBlog</h1></header>
+	  <br/>
+	  <header><h3>设置昵称</h3></header>
+	  <input type="text" id="setname" value=""/>
+	  <button id="btn_setname">保存</button><label id="err_setname"></label>
+	  <br/>
+	  <textarea id="message"></textarea>
+	  <button id="post">提交</button><label id="err"></label>
+	  <br/>
+	  <header><h3>My Posts</h3></header>
+	  <section id="posts"></section>
+	  <br/>
+	  <header><h3>Timeline</h3></header>
+	  <section id="timeline"></section>
+	  <br/>
+	  <header><h3>我的关注列表</h3></header>
+	  <section id="follows"></section>
+    </main>
+  </body>
+</html>
+
